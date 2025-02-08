@@ -4,7 +4,7 @@
 This repository demonstrates that applying a deformation field is a deterministic process, producing identical results regardless of whether the `ANTs` library or the `map_coordinates` function from `scipy.ndimage` is used. The consistency of the process is verified by computing the normalized cross-correlation (NCC), which results in a value of 1, indicating perfect agreement.
 
 ## Repository Structure
-- `deformation_demo.ipynb` — Google Colab Notebook with the full demonstration.
+- `22_1748_applying_warp_to_image` — Google Colab Notebook with the full demonstration.
 - `warp.nii` — Sample displacement field.
 - `mri.nii.gz` — Sample image to be deformed.
 
